@@ -39,16 +39,14 @@ NeuroSleep models the chain computationally. VCell simulates cellular metabolic 
 
 ## 🕸️ Connectivity
 
-Reconstruction of the Cytoscape connectome across the four states. Network density drops from Healthy through Severe, consistent with the saved Cytoscape session.
+Cytoscape connectome at the two ends of the progression. Network density drops sharply from Healthy to Severe, consistent with the saved Cytoscape session.
 
 <p align="center">
-  <img src="assets/Healthy_Network.png" alt="Healthy network" width="220">
-  <img src="assets/Mild_Network.png" alt="Mild network" width="220">
-  <img src="assets/Recovery_Network.png" alt="Recovery network" width="220">
-  <img src="assets/Severe_Network.png" alt="Severe network" width="220">
+  <img src="assets/Healthy_Network.png" alt="Healthy network" width="340">
+  <img src="assets/Severe_Network.png" alt="Severe network" width="340">
 </p>
 
-<p align="center"><sub>Healthy · Mild · Recovery · Severe</sub></p>
+<p align="center"><sub>Healthy · Severe</sub></p>
 
 <br>
 
@@ -125,15 +123,15 @@ VCell, Cytoscape, Python, scikit-learn, React 18, Tailwind CSS, Cytoscape.js, Th
 │   └── dashboard.js
 ├── assets/
 │   ├── pipeline_diagram.png
-│   ├── ATP_*.png                              Healthy, Mild, Recovery, Severe
-│   ├── ROS_*.png                              Healthy, Mild, Recovery, Severe
-│   └── *_Network.png                          Healthy, Mild, Recovery, Severe
+│   ├── ATP_Healthy.png
+│   ├── ATP_Mild.png
+│   ├── ATP_Recovery.png
+│   ├── ATP_Severe.png
+│   ├── ROS_Healthy.png
+│   ├── ROS_Mild.png
+│   ├── ROS_Recovery.png
+│   ├── ROS_Severe.png
+│   ├── Healthy_Network.png
+│   └── Severe_Network.png
 └── README.md
 ```
-
-<br>
-
-## 👤 Author
-
-**Aniket Patil**
-CS (AI) undergraduate, KLE Technological University
